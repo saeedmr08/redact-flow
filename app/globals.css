@@ -1,0 +1,30 @@
+:root {
+  --void: #0e0e10;
+  --panel: #17171b;
+  --bar: #c23131;
+  --bar-soft: #8a2424;
+  --fog: #b7b4ae;
+  --white: #f4f2ec;
+  --font-display: "Archivo Black", "Impact", sans-serif;
+  --font-body: "Source Sans 3", "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", "Consolas", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  color: var(--white);
+  font-family: var(--font-body);
+  background:
+    radial-gradient(circle at 20% 10%, #2a1515 0%, transparent 35%),
+    linear-gradient(180deg, #121214, var(--void));
+}
+
+a {
+  color: #e07070;
+}
